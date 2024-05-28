@@ -4,14 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "prepare": "husky"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "B.Smile",
+  "license": "MIT",
   "devDependencies": {
-    "@mistjs/eslint-config-vue-jsx": "^0.1.1",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.3.0",
+    "@types/node": "^20.12.12",
     "eslint": "^9.3.0",
-    "typescript": "^5.4.5"
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.3.0",
+    "husky": "^9.0.11",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0",
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
   }
 }
