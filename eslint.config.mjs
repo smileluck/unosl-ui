@@ -6,21 +6,6 @@ import pluginVue from "eslint-plugin-vue";
 
 export default [
   {
-    ignores: ["dist",
-      "node_modules",
-      "public",
-      ".husky",
-      ".vscode",
-      ".idea",
-      "*.sh",
-      "*.md",
-      "docs",
-      "src/assets",
-      ".eslintrc.cjs",
-      ".prettierrc.cjs",
-      ".stylelintrc.cjs",]
-  },
-  {
     languageOptions: { globals: globals.browser },
   },
   pluginJs.configs.recommended,
