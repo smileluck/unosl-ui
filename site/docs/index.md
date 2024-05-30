@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Unosl-Ui"
-  text: "A ui framework based on unocss"
+  name: "Unosl-ui"
+  text: "A ui framework based on unocss "
   tagline: My great project tagline
   actions:
     - theme: brand

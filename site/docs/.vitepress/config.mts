@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Unosl-Ui",
-  description: "A ui framework based on unocss",
+  title: "Unosl-ui",
+  description: "A ui framework based on unocss ",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
