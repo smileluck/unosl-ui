@@ -1,5 +1,4 @@
-export {};
+import "virtual:uno.css";
 
-export default () => {
-  console.log(123);
-};
+// import type {App} from "vue"
+// import * from
