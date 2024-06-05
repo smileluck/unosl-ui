@@ -1,12 +1,17 @@
 {
-  "name": "components",
+  "name": "@unosl-ui/component",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "unosl-ui",
+    "unocss",
+    "@unosl-ul/component"
+  ],
+  "author": "B.Smile",
+  "license": "MIT"
 }

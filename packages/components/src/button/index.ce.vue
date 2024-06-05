@@ -1,14 +1,16 @@
 <template>
   <div class="smilex-btn">
     <span>
-      <slot />
+      <button>
+        <slot />
+      </button>
     </span>
   </div>
 </template>
 
 <script setup lang="ts">
 defineOptions({
-  name: "UButton",
+  name: "SL-Button",
 });
 </script>
 
