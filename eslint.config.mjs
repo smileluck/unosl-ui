@@ -15,7 +15,7 @@ export default [
       ".idea",
       "*.sh",
       "*.md",
-      "docs",
+      "site/docs",
       "src/assets",
       ".eslintrc.cjs",
       ".prettierrc.cjs",

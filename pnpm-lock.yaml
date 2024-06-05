@@ -100,6 +100,10 @@ importers:
   packages/components: {}
 
   site:
+    dependencies:
+      '@unosl-ui/component':
+        specifier: workspace:^
+        version: link:../packages/components
     devDependencies:
       vitepress:
         specifier: ^1.2.2

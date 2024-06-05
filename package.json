@@ -1,5 +1,5 @@
 {
-  "name": "unosl-ui",
+  "name": "@unosl-ui/monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,11 @@
     "docs:build": "pnpm run --filter site docs:build",
     "docs:deploy": "pnpm run --filter site docs:deploy"
   },
-  "keywords": [],
+  "keywords": [
+    "unosl-ui",
+    "vue",
+    "vite"
+  ],
   "author": "B.Smile",
   "license": "MIT",
   "devDependencies": {
