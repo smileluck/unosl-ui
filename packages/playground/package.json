@@ -12,6 +12,7 @@
     "vue-tsc": "^2.0.6"
   },
   "dependencies": {
-    "@unosl-ui/component": "workspace:^"
+    "@unosl-ui/component": "workspace:^",
+    "@vue/repl": "^4.2.1"
   }
 }

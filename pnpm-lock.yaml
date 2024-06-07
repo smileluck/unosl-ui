@@ -104,6 +104,9 @@ importers:
       '@unosl-ui/component':
         specifier: workspace:^
         version: link:../components
+      '@vue/repl':
+        specifier: ^4.2.1
+        version: 4.2.1
     devDependencies:
       vue-tsc:
         specifier: ^2.0.6
@@ -1959,6 +1962,10 @@ packages:
     resolution: {integrity: sha512-kK0g4NknW6JX2yySLpsm2jlunZJl2/RJGZ0H9ddHdfBVHcNzxmQ0sS0b09ipmBoQpY8JM2KmUw+a6sO8Zo+zIA==, tarball: https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.4.27.tgz}
     dependencies:
       '@vue/shared': 3.4.27
+
+  /@vue/repl@4.2.1:
+    resolution: {integrity: sha512-kPpoAp0hQ1sKIGXEHtVdtdh2BgL97SAizEvCqRDB3LmgIYCPbzInwd4mqYkHstAhJPmkNslLd3rwfceMwzwinQ==, tarball: https://registry.npmmirror.com/@vue/repl/-/repl-4.2.1.tgz}
+    dev: false
 
   /@vue/runtime-core@3.4.27:
     resolution: {integrity: sha512-7aYA9GEbOOdviqVvcuweTLe5Za4qBZkUY7SvET6vE8kyypxVgaT1ixHLg4urtOlrApdgcdgHoTZCUuTGap/5WA==, tarball: https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.4.27.tgz}
