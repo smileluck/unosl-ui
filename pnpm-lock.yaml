@@ -100,6 +100,10 @@ importers:
   packages/components: {}
 
   packages/playground:
+    dependencies:
+      '@unosl-ui/component':
+        specifier: workspace:^
+        version: link:../components
     devDependencies:
       vue-tsc:
         specifier: ^2.0.6
