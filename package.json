@@ -11,7 +11,10 @@
     "commit": "git-cz",
     "docs:dev": "pnpm run --filter site docs:dev",
     "docs:build": "pnpm run --filter site docs:build",
-    "docs:deploy": "pnpm run --filter site docs:deploy"
+    "docs:deploy": "pnpm run --filter site docs:deploy",
+    "play:dev": "pnpm run --filter packages/playground dev",
+    "play:build": "pnpm run --filter packages/playground build",
+    "play:preview": "pnpm run --filter packages/playground preview"
   },
   "keywords": [
     "unosl-ui",
