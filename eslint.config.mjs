@@ -2,6 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
+import babelParse from "@babel/eslint-parser"
 
 
 export default [
@@ -23,7 +24,15 @@ export default [
     ]
   },
   {
-    languageOptions: { globals: globals.browser },
+    languageOptions: {
+      globals: globals.browser,
+      parser: tseslint.parser,
+      parserOptions: {
+        sourceType: 'module',
+        parser: tseslint.parser,
+        ecmaVersion: 12
+      },
+    },
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
